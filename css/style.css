@@ -1,0 +1,253 @@
+.--green-cl {
+    background-color: #01B243;
+}
+
+.--yellow-cl {
+    background: #FFC633;
+}
+
+.--orange-cl {
+    background: #F8512C;
+}
+
+.--blue-cl {
+    color: #8AB1FF;
+}
+
+.--red-cl {
+    color: #DB4356;
+}
+
+.--grey-light-cl {
+    background: #515965;
+}
+
+.--grey-dask-cl {
+    background: #515965;
+}
+
+/* PAGE HEADER */
+.page-header {
+    background-color: #01B243;
+    height: 36px;
+    border: 1px;
+    border-radius: 2px;
+}
+
+.header__wraper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+}
+
+.heading {
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 153.846% */
+    text-transform: uppercase;
+    padding: 8px 0;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/* TEAM */
+.team {
+    background: #2A3038;
+}
+
+.title {
+    text-align: center;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 184.615% */
+    text-transform: uppercase;
+    padding-top: 12px;
+    padding-bottom: 15px;
+}
+
+.team__wraper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team__group {
+    border-bottom: 0.1px solid;
+}
+
+.team__group:first-child {
+    border-right: 0.1px solid rgba(185, 186, 188, 0.5);
+    /* opacity: 0.15; */
+}
+
+.team__group:first-child {
+    padding-right: 15px;
+}
+
+.team__group:last-child {
+    padding-left: 15px;
+}
+
+.team__group .text {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    /* 133.333% */
+    text-transform: uppercase;
+}
+
+.team__group .group {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.team__group .group {
+    gap: 21px;
+}
+
+.team__group .group .item .bg {
+    height: 80px;
+    width: 40px;
+    background: #3E444E;
+    position: relative;
+    border-radius: 2px;
+}
+
+.team__group .group .item .bg .percent {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    border-radius: 2px;
+}
+
+.team__group .group .item .content {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    padding-top: 8px;
+}
+
+.home {
+    padding-bottom: 15px;
+    border-bottom: 0.1px solid rgba(185, 186, 188, 0.5);
+}
+
+.guest {
+    padding-bottom: 15px;
+    border-bottom: 0.1px solid rgba(185, 186, 188, 0.5);
+
+}
+
+/* LOSESCORE */
+
+.losescore {
+    background: #2A3038;
+    border-bottom: 0.1px solid rgba(185, 186, 188, 0.5);
+    padding-bottom: 15px;
+}
+
+.losescore__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.score__group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1px;
+    position: relative;
+}
+
+.score__group-item .text_l {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+    /* 116.667% */
+    text-transform: uppercase;
+    background-color: #515965;
+    height: 30px;
+    width: 244px;
+    height: 30px;
+    width: 244px;
+    border-radius: 2px;
+    padding: 8px 0;
+}
+
+.score__group-item .text_mm {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    background-color: #515965;
+    height: 30px;
+    width: 244px;
+    border-radius: 2px;
+    padding: 8px 0;
+}
+
+.score__group-item .number {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+}
+
+/* SCOREWIN */
+.scorewin {
+    background: #2A3038;
+    padding-bottom: 12px;
+}
+.scorewin__team:first-child{
+    border-bottom: 0.1px solid rgba(185, 186, 188, 0.5);
+    padding-bottom: 12px;
+}
+
+.scorewin .scorewin__team .team__group .group .item:nth-child(3){
+    padding-bottom: 13px;
+}
+
+.scorewin .scorewin__team .team__group .group .item .content {
+    max-width: 50px;
+}
+
+.scorewin .scorewin__team .team__group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
