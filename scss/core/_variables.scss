@@ -1,0 +1,59 @@
+:root{
+    --max-width-page: 2560px;
+    --max-width-container-small:calc(787px + calc( var(--gap) * 2));
+    --max-width-container-m:calc(1000px + calc( var(--gap) * 2));
+    // --max-width-container-fluid:1920px;
+    --max-width-container: calc(1198px + calc( var(--gap) * 2));  //1200px tuy thuoc vao ban thiet ke
+
+    --gap: 28px;
+    --gap-mobile:10px;
+
+    // color
+    --main-cl: #2A3038;
+    --green-cl:#01B243;
+    --yellow-cl: #FFC633;
+    --orange-cl: #F8512C;
+    --blue-cl: #8AB1FF;
+    --red-cl: #DB4356;
+    --grey-light-cl: #515965;
+    --grey-dask-cl : #464C53;
+
+    // fonts size
+    --fs-h2-42: 17px;
+    --lh-h2: 24px;
+    --fw-h2: 700;
+    
+
+
+    // mobile
+
+
+    // fonts
+    --font-body:dr;
+    --fonts-body-bold:db;
+
+    // general
+
+
+    // timing transition
+    --duration:0.4s;
+    // gia toc
+    --cubic: cubic-bezier(0.59, 0.29, 0.15,0.93);
+
+    // responsive
+    @include lg {
+        --container-max-width: 1140px;
+    }
+    @include sm {
+        --container-max-width: 960px; //hoac max-width: 100% tuy yeu cau
+        // --pd-section:90px 0;
+    }
+    @include xs {
+        --container-max-width: 720px; //hoac max-width: 100% tuy yeu cau
+
+    }
+    @include xxs {
+        --container-max-width: 100%
+    }
+
+}
