@@ -180,7 +180,7 @@
 .score__group-item {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding-bottom: 1px;
     position: relative;
 }
@@ -226,6 +226,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: 14px;
+    margin: 0 20px;
 }
 
 /* SCOREWIN */
